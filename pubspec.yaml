@@ -21,6 +21,7 @@ dependencies:
 
   # format dates for invoice
   intl: ^0.17.0
+  get: ^4.1.4
 
 dev_dependencies:
   flutter_test:
@@ -28,3 +29,12 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
+
+  fonts:
+    - family: OpenSans
+      fonts:
+        - asset: assets/OpenSans-Regular.ttf
+        - asset: assets/OpenSans-Bold.ttf
+        - asset: assets/OpenSans-BoldItalic.ttf
+        - asset: assets/OpenSans-Italic.ttf
+

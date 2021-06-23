@@ -30,13 +30,15 @@ class InvoiceInfo {
 }
 
 class InvoiceItem {
+  final int sno;
   final String description;
-  final DateTime date;
-  final int quantity;
+  var date;
+  var quantity;
   final double vat;
-  final double unitPrice;
+  var unitPrice;
 
-  const InvoiceItem({
+  InvoiceItem({
+    required this.sno,
     required this.description,
     required this.date,
     required this.quantity,
